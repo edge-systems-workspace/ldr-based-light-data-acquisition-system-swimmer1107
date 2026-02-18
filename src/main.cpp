@@ -1,44 +1,12 @@
-#include <Arduino.h>
 /**
- * @file main.ino
- * @brief Embedded Light Intensity Monitoring using LDR
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @file LDR_Light_Measurement.ino
+ * @brief Light intensity measurement using LDR sensor.
  *
- * @details
- * Reads analog brightness data from LDR sensor
- * and displays structured output via Serial Monitor.
+ * This program reads analog values from an LDR (Light Dependent Resistor)
+ * connected to analog pin A0. The raw analog value (0–1023) is converted
+ * into a percentage (0–100%) to represent light intensity.
+ * The values are displayed on the Serial Monitor.
+ *
+ * @author Pulkit Kulshreshtha
+ * @date 18 Feb 2026
  */
-
- // TODO 1:
- // Define LDR analog pin (Use A0)
-
- // TODO 2:
- // Create variable to store sensor reading
-
-void setup() {
-
-    // TODO 3:
-    // Initialize Serial communication (9600 baud rate)
-
-    // TODO 4:
-    // Print system initialization message
-}
-
-void loop() {
-
-    // TODO 5:
-    // Read analog value from LDR
-
-    // TODO 6:
-    // Print raw ADC value
-
-    // TODO 7:
-    // Apply threshold logic (Bright / Dark detection)
-
-    // TODO 8:
-    // Print brightness status
-
-    // TODO 9:
-    // Add delay (500ms or 1 second)
-}
