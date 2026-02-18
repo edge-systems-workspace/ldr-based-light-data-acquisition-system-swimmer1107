@@ -15,3 +15,11 @@
 
 #define ldrpin A0   ///< LDR sensor connected to analog pin A0
 
+/**
+ * @brief Initializes serial communication and LDR pin.
+ *
+ * This function runs once when the Arduino starts.
+ * - Starts Serial communication at 9600 baud rate
+ * - Sets LDR pin as INPUT
+ * - Prints setup confirmation message
+ */
